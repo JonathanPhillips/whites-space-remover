@@ -11,4 +11,4 @@ def whitespace_remover(dataframe):
 
 whitespace_remover(df)
 print(df)  # print dataframe to console
-df.to_csv('c:example_clean.csv', index=False) # write the cleaned dataframe back to csv
+df.to_csv('c:/example_clean.csv', index=False) # write the cleaned dataframe back to csv
